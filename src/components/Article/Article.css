@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Galmuri9';
+    src: url('../../fonts/Galmuri11.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Galmuri11';
+    src: url('../../fonts/Galmuri11.ttf') format('truetype');
+}
+
+
+.article {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Galmuri9', sans-serif;
+    min-height: 100px;
+    margin: 0px 20px 20px 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #444; /* border-bottom 추가 */
+}
+
+.article-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.article-date {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #AAAAAA
+}
+
+.article-url {
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #555555
+}
+
+.article-content {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}

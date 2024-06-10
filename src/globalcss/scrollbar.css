@@ -1,0 +1,24 @@
+/* Webkit 기반 브라우저용 스크롤바 커스터마이징 */
+::-webkit-scrollbar {
+    width: 12px; /* 스크롤바 너비 */
+}
+
+::-webkit-scrollbar-track {
+    background: #333; /* 스크롤바 트랙 색상 */
+    border-radius: 100px; /* 트랙의 둥근 모서리 */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888; /* 스크롤바 색상 */
+    border: 3px solid #333; /* 스크롤바와 트랙 사이 여백 */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* 스크롤바 호버 색상 */
+}
+
+/* Firefox 기반 브라우저용 스크롤바 커스터마이징 */
+html {
+    scrollbar-width: thin; /* 스크롤바 너비 설정: auto, thin, none */
+    scrollbar-color: #888 #333; /* 스크롤바 색상: thumb 색상, track 색상 */
+}

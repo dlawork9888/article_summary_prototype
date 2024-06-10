@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Galmuri9';
+    src: url('../../fonts/Galmuri11.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Galmuri11';
+    src: url('../../fonts/Galmuri11.ttf') format('truetype');
+}
+
+.header {
+    background-color: #000000;
+    padding: 10px 20px;
+    font-family: 'Galmuri9', sans-serif;
+}
+
